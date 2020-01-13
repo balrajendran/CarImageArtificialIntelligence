@@ -1,0 +1,9 @@
+{% extends "/public_template.html" %}
+
+{% block main %}
+<div class="container" style = "text-align:center; padding-right: 5px; padding-left: 25px; padding-top: 100px; padding-bottom: 25px">
+    <h1 style="color: blue">Car Image Process Completed</h1>
+    <h2 style = "text-align:center;">Your Car is: {{results}}</h2>
+    <img src={{absfilepath}} style = "text-align:center;">
+</div>
+{% endblock %}
